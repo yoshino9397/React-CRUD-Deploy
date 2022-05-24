@@ -54,12 +54,6 @@ export const productColumns = [
     },
   },
   {
-    field: "title",
-    headerName: "Title",
-    width: 100,
-  },
-
-  {
     field: "price",
     headerName: "Price",
     width: 200,
@@ -77,4 +71,3 @@ export const productColumns = [
     },
   },
 ];
-

@@ -10,7 +10,7 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const navitage = useNavigate();
+  const navigate = useNavigate();
   const { dispatch } = useContext(AuthContext);
 
   const handleLogin = (e) => {
@@ -21,7 +21,7 @@ const Login = () => {
         // Signed in
         const user = userCredential.user;
         dispatch({ type: "LOGIN", payload: user });
-        navitage("/");
+        navigate("/");
       })
       .catch(() => {
         setError(true);
