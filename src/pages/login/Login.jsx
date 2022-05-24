@@ -33,12 +33,12 @@ const Login = () => {
       <form onSubmit={handleLogin}>
         <input
           type="email"
-          placeholder="email"
+          placeholder="taro@mail.com"
           onChange={(e) => setEmail(e.target.value)}
         />
         <input
           type="password"
-          placeholder="password"
+          placeholder="123456"
           onChange={(e) => setPassword(e.target.value)}
         />
         <button type="submit">Login</button>
