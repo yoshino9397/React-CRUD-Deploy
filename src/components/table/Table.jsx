@@ -24,7 +24,7 @@ const List = () => {
       product: "Modern Architecture Book",
       img: "https://m.media-amazon.com/images/P/B08V1BS43H.01._SCLZZZZZZZ_SX500_.jpg",
       customer: "Mitsugi",
-      date: "1 March",
+      date: "5 April",
       amount: 900,
       method: "Online Payment",
       status: "Pending",
