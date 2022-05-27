@@ -17,12 +17,12 @@ import { AuthContext } from "../../context/AuthContext";
 
 const Sidebar = () => {
   const { dispatch } = useContext(AuthContext);
-  const navitage = useNavigate();
+  const navigate = useNavigate();
 
   const handleLogout = () => {
     try {
       dispatch({ type: "LOGOUT", payload: null });
-      navitage("/login");
+      navigate("/login");
     } catch (error) {
       console.log(error);
     }
